@@ -1,0 +1,39 @@
+body {
+  background-color: #4158d0;
+  flex-direction: column;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  font-size: 25px;
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+
+
+button {
+  font-size: 20px;
+  background: rgb(74, 75, 255);
+  color: #fff;
+}

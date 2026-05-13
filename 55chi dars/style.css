@@ -1,0 +1,23 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-size: 25px;
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+
+button {
+  font-size: 20px;
+  background: rgb(73, 73, 255);
+  color: #fff;
+}

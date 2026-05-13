@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  background: transparent;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.show-btn {
+  background-color: #474b4f;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background 0.5s;
+}
+
+.show-btn:hover {
+  background-color: #3a3d40;
+}
+
+
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-header {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.close-btn {
+  color: #222;
+  font-size: 20px;
+}

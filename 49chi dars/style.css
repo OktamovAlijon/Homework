@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+
+li {
+  background-color: rgba(116, 0, 134, 0.644);
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  max-width: 300px;
+}
+
+button {
+  display: block;
+  background-color: rgb(61, 70, 240);
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
