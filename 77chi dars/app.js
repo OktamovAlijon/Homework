@@ -1,0 +1,1 @@
+//biz JSON.parse bilan ma'lumotlarni json formatida jonatamiz

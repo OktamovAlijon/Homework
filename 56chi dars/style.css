@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  font-size: 25px;
+  padding: 5px 8px;
+  border-radius: 8px;
+}
+
+button {
+  font-size: 20px;
+  background: rgb(73, 73, 255);
+  color: #fff;
+}
+
+.success {
+border: 5px solid greenyellow;
+box-shadow: 3px .4px .29px.3px rgba(0, 255, 8, 0.71);
+-webkit-box-shadow: 3px 4px.29px.3pxrgba(0,255, 8, 0.71);
+-moz-box-shadow: 3px 4px 29px 3px
+
+rgba(0, 255, 8, 0.71);
+
+}
+
+.error {
+border: 5px solid tomato;
+box-shadow: 3px 4px 29px 3px rgba(255, 0, 0, 0.71);
+-webkit-box-shadow: 3px 4px 29px 3px rgba(255, 0, 0, 0.71);
+-moz-box-shadow: 3px 4px 29px 3px rgba(255, 0, 0, 0.71);
+
+}
